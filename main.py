@@ -8,7 +8,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello alerts 1.3"}
+    return {"message": "Hello buttons 1.3"}
 
 
 @app.get("/api/v1/alarms/phonebtn/{phonebtn_id}")
